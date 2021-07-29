@@ -1,0 +1,45 @@
+@import '../../../styles.scss';
+
+.Post {
+	width: 300px;
+	height: 400px;
+	background-color: $popout-background;
+	box-shadow: 0 0 24px black;
+	border-radius: 12px;
+	margin: 20px;
+	border: thin solid $border;
+	.top-row {
+		border-bottom: thin solid $border;
+		height: 40px;
+		width: 100%;
+		padding-top: 8px;
+		font-size: .8em;
+		position: relative;
+
+		.left-aligned {
+			display: inline;
+			position: absolute;
+			left: 10px;
+		}
+
+		.right-aligned {
+			display: inline;
+			position: absolute;
+			right: 10px;
+			color: $secondary-text;
+			font-style: italic;
+		}
+	}
+
+	.message-wrapper {
+		padding: 30px;
+		height: 100%;
+		max-height: 300px;
+		width: auto;
+		text-align: left;
+		overflow-y: scroll;
+		overflow-wrap: break-word;
+		text-indent: 26px;
+		position: relative;
+	}
+}

@@ -1,0 +1,23 @@
+@import '../../../styles.scss';
+
+.nav-tabs {
+	border-bottom: thin solid $border;
+	padding: 20px;
+	padding-left: 0;
+	padding-bottom: 1px;
+	padding-right: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: fit-content;
+	li {
+		a {
+			color: $primary-text;
+			border: none;
+		}
+
+		a:hover {
+			color: $secondary-text;
+			border: none;
+		}
+	}
+}

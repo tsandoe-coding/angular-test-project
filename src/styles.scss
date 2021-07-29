@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+$background: #111111;
+$popout-background: #22211f;
+$border: #767676;
+$primary-text: white;
+$secondary-text: #878787;
