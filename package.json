@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://tsandoe-coding.github.io/angular-test-project/' --source-map --build-optimizer",
+    "build": "ng build --prod --base-href 'https://tsandoe-coding.github.io/angular-test-project/docs' --source-map --build-optimizer",
     "test": "ng test",
     "lint": "ng lint",
+    "deploy": "angular-cli-ghpages --dir=docs",
     "e2e": "ng e2e"
   },
   "private": true,
